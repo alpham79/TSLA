@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.coconnect.naiia" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>NAIIA</name>
+<widget id="com.coconnect.tsla" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TSLA</name>
     <description>
-        App for the NAIIA 2014 Convention
+        App for the TSLA 2014 Mid-Year Meeting
     </description>
-    <author email="jim@coconnect.co" href="http://www.naiia.com/">
+    <author email="jim@coconnect.co" href="http://www.tsla.org/">
         Coconnect
     </author>
     <icon src="logo.png" />
