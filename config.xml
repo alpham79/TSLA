@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.coconnect.naiia" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>NAIIA</name>
+    <description>
+        App for the NAIIA 2014 Convention
+    </description>
+    <author email="jim@coconnect.co" href="http://www.naiia.com/">
+        Coconnect
+    </author>
+    <icon src="logo.png" />
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-xhdpi" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="blackberry" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-640x920.png"   gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-640x1096.png"  gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-1536x2008.png" gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-1496x2048.png" gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="winphone" />
+</widget>
