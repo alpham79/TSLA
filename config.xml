@@ -10,10 +10,13 @@
     <icon src="logo.png" />
     <content src="index.html" />
     <access origin="*" />
+
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    
+
     <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="images/splashscreens/apple-touch-startup-image-320x460.png"   gap:platform="android" gap:qualifier="port-hdpi" />
