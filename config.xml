@@ -7,7 +7,7 @@
     <author email="jim@coconnect.co" href="http://www.tsla.org/">
         Coconnect
     </author>
-    <icon src="logo.png" />
+    <icon src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
 
