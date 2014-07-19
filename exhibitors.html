@@ -47,6 +47,17 @@
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         
 	<script type="text/javascript" src="js/app.js?v=30"></script>
+
+	<script src="phonegap.js"></script>
+	<script language="javascript" type="text/javascript">
+	<!--
+	function openURL(urlString){
+	    myURL = encodeURI(urlString);
+	    window.open(myURL, '_system');
+		}	
+	//-->
+	</script>
+
 </head> 
 
 <body>
@@ -92,7 +103,7 @@
 				</table>
 
 		<ul>
-			<li> <a target="_blank" href="http://www.asg-adj.com">Abercrombie, Simmons & Gillette, Inc.</a>
+			<li> <a href='#' onclick='openURL("http://www.asg-adj.com")'>Abercrombie, Simmons & Gillette, Inc.</a>
 			<li> <a target="_blank" href="http://www.acegroup.com">ACE Westchester</a>
 			<li> <a target="_blank" href="http://www.admiralins.com">Admiral Insurance Company</a>
 			<li> <a target="_blank" href="http://www.allrisks.com/">All Risks, Ltd.</a>
