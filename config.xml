@@ -11,6 +11,7 @@
     <content src="index.html" />
     <access origin="*" />
 
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
 
     <preference name="fullscreen" value="false" />
